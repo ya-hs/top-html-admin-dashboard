@@ -89,3 +89,7 @@ video {
 }
 
 /* #endregion */
+
+:root {
+    box-sizing: border-box;
+}
