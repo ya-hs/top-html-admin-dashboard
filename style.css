@@ -290,14 +290,16 @@ main {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
-    padding-left: 30px;
-    padding-bottom: 60px;
+    padding: 30px 30px 60px 30px;
 }
 
 .project-card {
     background-color: white;
     border-radius: 10px;
     border-left: 10px solid #F79D5C;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #your-projects {
@@ -327,6 +329,15 @@ main {
 }
 
 .announcement-card {
+    background-color: white;
+    border-radius: 15px;
+}
+
+#trending {
+    height: 100%;
+}
+
+.trending-card {
     background-color: white;
     border-radius: 15px;
 }
