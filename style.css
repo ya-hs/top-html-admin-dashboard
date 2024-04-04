@@ -255,12 +255,30 @@ header {
 
 #search-form {
     align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    padding: 30px;
+    align-items: center;
+}
+
+#search-box {
+    width: 100%;
+    height: 30px;
+    background-color: #d7eaea;
+    border: none;
+    border-radius: 15px;
 }
 
 #search-form svg {
     height: 30px;
 }
 
+
+#profile-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+}
 
 #profile-section svg {
     height: 30px;
