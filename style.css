@@ -328,18 +328,27 @@ main {
     height: 30px;
 }
 
+#announcements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr;
+}
+
 .announcement-card {
     background-color: white;
     border-radius: 15px;
 }
 
 #trending {
-    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr;
 }
 
 .trending-card {
     background-color: white;
     border-radius: 15px;
+    height: 100%;
 }
 
 /* #endregion ********************************************************************** */
