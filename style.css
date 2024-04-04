@@ -284,6 +284,10 @@ header {
     height: 30px;
 }
 
+#profile-section img {
+    height: 60px;
+}
+
 .button {
     background-color: #af3e4d;
     color: white;
@@ -291,6 +295,10 @@ header {
     width: 80px;
     padding: 8px 20px;
     border-radius: 20px;
+}
+
+#welcome-heading img {
+    height: 50px;
 }
 
 /* #endregion ********************************************************************** */
