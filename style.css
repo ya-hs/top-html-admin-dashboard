@@ -276,16 +276,26 @@ header {
 
 #profile-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-self: center;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    height: 100%;
+    align-items: center;
+
 }
 
 #profile-section svg {
     height: 30px;
+    justify-self: right;
 }
 
 #profile-section img {
     height: 60px;
+    justify-self: center;
+}
+
+#username-small {
+    justify-self: left;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .button {
@@ -343,6 +353,11 @@ main {
     padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
 #your-projects {
