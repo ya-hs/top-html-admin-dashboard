@@ -415,15 +415,19 @@ ul {
 main {
     background-color: #d7eaea;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2.75fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
     padding: 30px 30px 60px 30px;
 }
 
-.project-card {
+.card {
+    box-shadow: 10px 5px 7px 0px rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 10px;
+}
+
+.project-card {
     border-left: 10px solid #F79D5C;
     padding-top: 35px;
     padding-left: 25px;
@@ -467,21 +471,11 @@ main {
     grid-template-rows: 30px 1fr;
 }
 
-.announcement-card {
-    background-color: white;
-    border-radius: 15px;
-}
-
 #trending {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 1fr;
 }
 
-.trending-card {
-    background-color: white;
-    border-radius: 15px;
-    height: 100%;
-}
 
 /* #endregion ********************************************************************** */
