@@ -347,6 +347,15 @@ header {
     padding: 12px 20px;
     border-radius: 20px;
     font-size: 1.05rem;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: #5b141e;
+    cursor: pointer;
+    transform: translate(-1px, -2px);
+    transition: ease-in-out 0.2s;
+    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.1);
 }
 
 #welcome-heading img {
@@ -401,6 +410,14 @@ ul {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: 0.1s;
+}
+
+.nav-item:hover {
+    color: #5b141e;
+    cursor: pointer;
+    transition: 0.1s;
+    transform: translateX(3px);
 }
 
 .nav-item svg {
