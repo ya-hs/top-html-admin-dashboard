@@ -233,7 +233,7 @@ video {
 
 body {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
     height: 100vh;
     font-family: 'Roboto';
@@ -363,16 +363,49 @@ nav {
 
     background-color: #af3e4d;
     color: white;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2.75fr 4fr;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
 }
 
 .logo-container svg {
     fill: white;
     height: 50px;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.logo-container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    align-self: center;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.nav-item {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: 1.3rem;
+    font-weight: 500;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-item svg {
     fill: white;
-    height: 35px;
+    height: 25px;
 }
 
 /* #endregion ********************************************************************** */
