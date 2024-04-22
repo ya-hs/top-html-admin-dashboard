@@ -86,6 +86,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    /* outline: red 1px solid; */
 }
 
 /* #endregion */
@@ -298,13 +299,54 @@ header {
     font-weight: 700;
 }
 
+#welcome-heading {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+
+#welcome-heading img {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    align-self: center;
+    min-height: 100%;
+}
+
+#hi-there {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-weight: 700;
+    align-self: self-end;
+}
+
+#username-large {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: left;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
 .button {
     background-color: #af3e4d;
     color: white;
     border: none;
-    width: 80px;
-    padding: 8px 20px;
+    width: 110px;
+    height: 40px;
+    padding: 12px 20px;
     border-radius: 20px;
+    font-size: 1.05rem;
 }
 
 #welcome-heading img {
