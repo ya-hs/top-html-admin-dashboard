@@ -262,12 +262,18 @@ header {
     align-items: center;
 }
 
+#search-box:focus {
+    outline: 3px solid #af3e4d;
+}
+
 #search-box {
     width: 90%;
     height: 30px;
     background-color: #d7eaea;
     border: none;
     border-radius: 15px;
+    font-size: 1.15rem;
+    padding-left: 15px;
 }
 
 #search-form svg {
