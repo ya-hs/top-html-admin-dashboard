@@ -522,5 +522,9 @@ main {
     grid-template-rows: 30px 1fr;
 }
 
+.trending-avatar {
+    height: 50px;
+}
+
 
 /* #endregion ********************************************************************** */
