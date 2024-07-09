@@ -510,10 +510,33 @@ main {
     transition: 0.2s;
 }
 
+.section-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 #announcements {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 1fr;
+}
+
+.announcement-card {
+    padding: 45px;
+}
+
+.announcement-name {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.announcement {
+    color: rgb(73, 73, 73);
+}
+
+hr {
+    margin: 25px auto 25px auto;
+    background-color: rgb(116, 116, 116);
 }
 
 #trending {
