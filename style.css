@@ -545,8 +545,36 @@ hr {
     grid-template-rows: 30px 1fr;
 }
 
+.trending-user {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 25px 0px 0px 30px;
+    font-size: 1.1rem;
+    /* align-items: center; */
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-bottom: 15px
+}
+
+.trending-username {
+    font-weight: 500;
+    margin-bottom: 2.5px;
+    align-self: self-end;
+}
+
+.trending-subname {
+    margin-top: 2.5px;
+    color: rgb(89, 89, 89);
+}
+
 .trending-avatar {
-    height: 50px;
+    height: 60px;
+    grid-row: 1 / 3;
 }
 
 
