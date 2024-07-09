@@ -381,7 +381,7 @@ nav {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2.75fr 4fr;
+    grid-template-rows: 1.2fr 2.75fr 6fr;
 }
 
 .logo-container {
